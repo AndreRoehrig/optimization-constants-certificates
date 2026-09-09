@@ -1,6 +1,6 @@
 # Verification certificates for C42 and C51
 
-Author: [Andre Roehrig](https://github.com/AndreRoehrig). September 9, 2026.
+Author: [André Röhrig](https://github.com/AndreRoehrig). September 9, 2026.
 
 This repository contains the proofs, exact inputs, and verification programs
 for two proposed improvements to the
@@ -70,7 +70,7 @@ rational data; floating-point search results are not used as proof.
 ## Review and AI assistance
 
 The mathematical exploration, verification programs, and exposition were
-developed with AI assistance using Codex. Andre Roehrig reviewed the proofs,
+developed with AI assistance using Codex. André Röhrig reviewed the proofs,
 references, and supporting verification material before publication. The
 verification commands were executed and checked during preparation.
 These are proposed computer-assisted results; they have not been peer reviewed.
