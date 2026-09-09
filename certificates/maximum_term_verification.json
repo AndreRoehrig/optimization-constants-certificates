@@ -1,0 +1,39 @@
+{
+  "certified_lower_bound": "731348524593/1250000000000",
+  "decimal_lower_bound": "0.5850788196744",
+  "K": "3.5681854310698435",
+  "alpha": "3.9615431126097391",
+  "N": 9,
+  "interval_dps": 100,
+  "polynomial_degree": 19,
+  "subdivision": {
+    "nodes": 37,
+    "leaves": 19,
+    "maximum_depth": 18
+  },
+  "tail_bound": [
+    "0.000000000000000000000000000000",
+    "0.000000000000000000000000000001"
+  ],
+  "certified_maximum_upper_enclosure": [
+    "1.709171425067816128872617735944",
+    "1.709171425067816128872617735945"
+  ],
+  "reciprocal_of_maximum_upper_enclosure": [
+    "0.585078819674464320841496314106",
+    "0.585078819674464320841496314107"
+  ],
+  "old_function_beta_upper_enclosure": [
+    "0.585078819653352950854632621541",
+    "0.585078819653352950854632621542"
+  ],
+  "certified_gain_over_old_function_at_least": [
+    "0.000000000021111369986863692564",
+    "0.000000000021111369986863692565"
+  ],
+  "headline_gain_over_old_function_at_least": [
+    "0.000000000021047049145367378458",
+    "0.000000000021047049145367378459"
+  ],
+  "status": "PASS: global maximum bounded on the entire circle, with infinite tail included"
+}
