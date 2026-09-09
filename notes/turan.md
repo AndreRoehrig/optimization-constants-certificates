@@ -8,7 +8,7 @@ C_{42}=\limsup_{n\to\infty}\min_{\max_j|z_j|=1}
 \le 0.688983.
 $$
 
-Author: André Röhrig. September 9, 2026.
+Author: Andre Roehrig. September 9, 2026.
 
 Exact rational parameters and outward-rounded interval calculations certify
 the strict inequalities used below. The analytic argument is included in
@@ -307,6 +307,6 @@ The exact certificate is `certificates/turan.json`; the default verification
 transcript is `certificates/turan_verification.json`. Both precisions pass.
 
 This result, its verification code, and the exposition were developed with
-AI assistance using Codex. André Röhrig reviewed the mathematical arguments,
+AI assistance using Codex. Andre Roehrig reviewed the mathematical arguments,
 references, and supporting verification material before publication.
 The verification commands were executed and checked during preparation.

@@ -1,6 +1,6 @@
 # A small parameter improvement for the Erdős maximum-term constant
 
-Author: André Röhrig. September 9, 2026.
+Author: Andre Roehrig. September 9, 2026.
 
 We propose the computer-assisted bound
 
@@ -158,7 +158,7 @@ exact rational strings. Only transcendental evaluations use intervals;
 control-coefficient subdivision and final comparisons use exact rationals.
 
 This result, its verification code, and the exposition were developed with
-AI assistance using Codex. André Röhrig reviewed the mathematical arguments,
+AI assistance using Codex. Andre Roehrig reviewed the mathematical arguments,
 references, and supporting verification material before publication.
 The verification commands were executed and checked during preparation.
 The result has not been peer reviewed.
