@@ -1,0 +1,58 @@
+{
+  "gadgets": [
+    {
+      "name": "g0",
+      "op": "hetgao",
+      "pattern": "N<N<N<S<G15X,G5,P15X>,G5>,G5>,G5>",
+      "R": "G5"
+    },
+    {
+      "name": "g1",
+      "op": "hetgao",
+      "pattern": "N<S<G15AX,G5,P15A8>,G5>",
+      "R": "G5"
+    },
+    {
+      "name": "g2",
+      "op": "hetgao",
+      "pattern": "N<S<G15DX,G15AX,P15D>,G15AX>",
+      "R": "g1"
+    },
+    {
+      "name": "g3",
+      "op": "gao",
+      "L": "sG5",
+      "R": "G5"
+    },
+    {
+      "name": "g4",
+      "op": "sigma",
+      "of": "g3"
+    },
+    {
+      "name": "g5",
+      "op": "hetgao",
+      "pattern": "N<N<N<S<G15AX,G5,P15A5>,G5>,sG10A>,sG10A>",
+      "R": "g4"
+    },
+    {
+      "name": "g6",
+      "op": "sigma",
+      "of": "g5"
+    }
+  ],
+  "top": {
+    "rule": "S3b",
+    "terminal_code": "K4a",
+    "rule_inputs": [
+      "Phi(g0)",
+      "Phi(g2)",
+      "Phi(g6)"
+    ]
+  },
+  "M": "7634665824343395447832571634713930923050157677238927987224708332062997928323428066985443412076402913075147270385551026120656908867588436151875014018547983120028914027179595317212923468469457200731042165801635700354346874246942297152673857134808086635465688102042701948695132354162644052760182078026651593945096516892521075750827122132165535715731329",
+  "dimension": 680,
+  "lower_bound": "3.25883916095583330",
+  "method": "BPZ S3b on three heterogeneous Gao gadgets, followed by K4a on four copies. The nested factors use Tandon\u2019s constructions and Tang\u2019s product-pattern notation.",
+  "source": "https://github.com/teorth/optimizationproblems/pull/296"
+}

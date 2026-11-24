@@ -1,4 +1,29 @@
-# Verification certificates for C42 and C51
+# Verification certificates for optimization constants
+
+## November 2026 draft for C9, C47 and C49
+
+The three proposed lower bounds below have finite certificates. Codex carried
+out the search, wrote the verification programs, and prepared the notes for
+André Röhrig's review. Human review is pending.
+
+| Constant | Earlier construction | New strict lower bound |
+| --- | --- | --- |
+| [C9, Shannon capacity of the 7-cycle](notes/c9.md) | Tang, 3.258838705444608832… | 3.25883916095583330 |
+| [C47, centered maximal constant for squares](notes/c47.md) | Pinho, 1.705591315040972705… | 1.7061645367065 |
+| [C49, three-sunflower-free capacity](notes/c49.md) | Canli's extension of Tilley, 1.567867203055880727… | 1.567868436047630 |
+
+Run the three standard-library verifiers from the repository root with Python 3.9 or later.
+The C9 script downloads Tang's pinned source archive and verifies its SHA-256.
+It also accepts a saved copy as its only argument. C47 and C49 run offline.
+Each linked note gives the construction, proof and a second way to check the data.
+
+```sh
+python3 scripts/certify_c9.py
+python3 scripts/certify_c47.py
+python3 scripts/certify_c49.py
+```
+
+## September 2026 certificates for C42 and C51
 
 Author: [André Röhrig](https://github.com/AndreRoehrig). September 9, 2026.
 
@@ -25,7 +50,7 @@ claimed value exceeds a verified upper bound on the actual previous
 specified function by more than 2.1047e-11. The comparison uses the full
 prior result, which is more precise than the site's displayed 0.5850788.
 
-## Run the verification
+### Run the C42 and C51 verification
 
 From the repository root, using Python 3:
 
@@ -54,7 +79,7 @@ the mathematical formulas, finite coefficient cancellation, exact Bernstein
 subdivision, and rejection of invalid claims. Its direct quadrature is a
 separate numerical check; the interval scripts provide the rigorous bounds.
 
-## Proofs and data
+### C42 and C51 proofs and data
 
 - [C42 proof](notes/turan.md), [exact parameters](certificates/turan.json),
   [expected verification result](certificates/turan_verification.json).
@@ -67,7 +92,7 @@ The proofs credit the preceding constructions of Griego, Biró, He–Tang,
 and Sothanaphan, and link to their sources. The certificates use exact
 rational data; floating-point search results are not used as proof.
 
-## Review and AI assistance
+### Review and AI assistance for C42 and C51
 
 The mathematical exploration, verification programs, and exposition were
 developed with AI assistance using Codex. André Röhrig reviewed the proofs,
