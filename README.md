@@ -1,10 +1,11 @@
 # Verification certificates for optimization constants
 
-## November 2026 draft for C9, C47 and C49
+## November 2026 certificates for C9, C47 and C49
 
-The three proposed lower bounds below have finite certificates. Codex carried
-out the search, wrote the verification programs, and prepared the notes for
-André Röhrig's review. Human review is pending.
+The three proposed lower bounds below have finite certificates. OpenAI Codex
+carried out the searches, wrote the verification programs, and prepared the
+notes. André Röhrig personally reviewed the mathematical arguments, supporting
+material, and references for all three bounds.
 
 | Constant | Earlier construction | New strict lower bound |
 | --- | --- | --- |
